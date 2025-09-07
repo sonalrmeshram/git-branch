@@ -15,7 +15,7 @@ COLOR_CODES = {
     "darkBlue": "#130f40"
 }
 
-# Select color: from env var or random choice
+ 
 selected_color_name = os.getenv("APP_COLOR", random.choice(list(COLOR_CODES.keys())))
 selected_color_code = COLOR_CODES[selected_color_name]
 
